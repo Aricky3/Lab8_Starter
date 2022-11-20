@@ -17,7 +17,6 @@ describe('Basic user flow for Website', () => {
 
   // Check to make sure that all 20 <product-item> elements have data in them
   it('Make sure <product-item> elements are populated', async () => {
-    while(prodItems != null){
       console.log('Checking to make sure <product-item> elements are populated...');
       // Start as true, if any don't have data, swap to false
       let allArePopulated = true;
@@ -40,9 +39,6 @@ describe('Basic user flow for Website', () => {
       // Right now this function is only checking the first <product-item> it found, make it so that
       // it checks every <product-item> it found
       /* I just added a While loop*/
-
-    }
-
 
   }, 10000);
 
