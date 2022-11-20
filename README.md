@@ -1,5 +1,6 @@
 # Lab 8 - Starter
 Ricardo Aguilar & Thomas Rexin
-1. 1 because that would trigger the test that is associated with the issue to be ran.
-2. No
-3. 
+1. 1 because that would trigger the test that is associated with the issue to be ran whenever it is pushed and would make identifying the causes of errors easier.
+2. No, we would not use an end to end test to check if a function is returning the correct output because end to end tests are used to emulate potential user action scenarios.
+3. No, we would not use a unit test because end to end testing would be better suited to test the "message" feature because end to end testing can simulate a scenario of a user writing and sending a message to another user. Unit tests cannot be used to test how individual components interact with each other.
+4. Yes, we would use a unit test because testing the "max message length" of a message is a simple test of an individual component in the messaging application which can be easily accomplished with a unit test. It does not require testing how individual components interact so a unit test would work well.
